@@ -56,7 +56,7 @@ Create a shortcut with this path, and replace the relevant params:
 
 So for example:
 
-`"C:\Program Files\PuTTY\putty.exe" -load MyConfig -pw MySuperSecurePassword -t`
+`"C:\Program Files\PuTTY\putty.exe" -load MyConfigName -pw MySuperSecurePassword -t`
 
 # How to check IP address of the VM
 - 1: Execute the `ip addr` command
