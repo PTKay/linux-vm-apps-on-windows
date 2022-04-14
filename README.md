@@ -1,4 +1,4 @@
-# How to run VM Linux apps as Windows apps
+# How to run Linux VM apps as if they were on Windows
 This guide assumes your VM network connection is set to NAT
 
 - 1: Install PUTTY on Windows
