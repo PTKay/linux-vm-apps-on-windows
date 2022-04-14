@@ -20,7 +20,7 @@ This guide assumes your VM network connection is set to NAT
 
     ![](3.png)
 
-- 4: Go to the VM and install openssh by running `sudo apt-get install openssh-server`
+- 4: Go to the VM and install openssh by running `sudo yum install openssh-server`
 - 5: Enable X11 forwarding in `/etc/ssh/ssh_config` by removing the `#` character in the line saying "ForwardX11 yes", so that it looks like this:
 
     ![](4.png)
