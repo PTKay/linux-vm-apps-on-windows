@@ -63,6 +63,7 @@ If the mouse cursor looks too big, set the cursor size environment variable like
 
 `export XCURSOR_SIZE=16`
 
+For convinience sake, it's probably a good idea to add this line to the `~/.bashrc` file
 
 # How to check IP address of the VM
 - 1: Execute the `ip addr` command
