@@ -47,8 +47,7 @@ Now, on Windows:
 
 - 3: Try the connection by pressing Open. If it works, we're good to go!
 
-## Extra tip
-You can create a shortcut on your desktop to ease the launch of the putty session.
+You can now also create a shortcut on your desktop to make it easier to launch the PUTTY session.
 
 Create a shortcut with this path, and replace the relevant params:
 
@@ -58,6 +57,13 @@ So for example:
 
 `"C:\Program Files\PuTTY\putty.exe" -load MyConfigName -pw MySuperSecurePassword -t`
 
+# Common Issues
+## Cursor too big
+If the mouse cursor looks too big, set the cursor size environment variable like this:
+
+`export XCURSOR_SIZE=16`
+
+----
 # How to check IP address of the VM
 - 1: Execute the `ip addr` command
 - 2: IP should be located in the `virbr0` entry, like so:
