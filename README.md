@@ -1,7 +1,7 @@
 # How to run Linux VM apps as if they were on Windows
 This guide assumes your VM network connection is set to NAT
 
-- 1: Install PUTTY on Windows
+- 1: Install PuTTY on Windows
 - 2: [Download](./vmnetcfg.exe) `vmnetcfg.exe`, and place it in the VMware Player installation folder (usually it's `C:\Program Files (x86)\VMware\VMware Player`) 
 - 3: Run `vmmnetcfg.exe` **<ins>as administrator</ins>** and:
     - Select "VMNET8" and click on "NAT Settings":
@@ -47,7 +47,7 @@ Now, on Windows:
 
 - 3: Try the connection by pressing Open. If it works, we're good to go!
 
-You can now also create a shortcut on your desktop to make it easier to launch the PUTTY session.
+You can now also create a shortcut on your desktop to make it easier to launch the PuTTY session.
 
 Create a shortcut with this path, and replace the relevant params:
 
