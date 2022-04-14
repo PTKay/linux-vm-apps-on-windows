@@ -58,12 +58,12 @@ So for example:
 `"C:\Program Files\PuTTY\putty.exe" -load MyConfigName -pw MySuperSecurePassword -t`
 
 # Common Issues
-## Cursor too big
+### Cursor too big
 If the mouse cursor looks too big, set the cursor size environment variable like this:
 
 `export XCURSOR_SIZE=16`
 
-----
+
 # How to check IP address of the VM
 - 1: Execute the `ip addr` command
 - 2: IP should be located in the `virbr0` entry, like so:
