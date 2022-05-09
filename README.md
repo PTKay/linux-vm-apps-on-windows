@@ -7,7 +7,9 @@ Player ▼
      └─── 🔧 Virtual Machine Settings
           └── 🖥️🖥️ Network Adapter
 ```
+![](0.png)
 
+## Step By Step
 - 1: Install PuTTY on Windows
 - 2: [Download](./vmnetcfg.exe) `vmnetcfg.exe`, and place it in the VMware Player installation folder (usually it's `C:\Program Files (x86)\VMware\VMware Player`) 
 - 3: Run `vmmnetcfg.exe` **<ins>as administrator</ins>** and:
@@ -64,7 +66,7 @@ So for example:
 
 `"C:\Program Files\PuTTY\putty.exe" -load MyConfigName -pw MySuperSecurePassword -t`
 
-# Common Issues
+## Common Issues
 ### Cursor too big
 If the mouse cursor looks too big, set the cursor size environment variable like this:
 
@@ -72,7 +74,7 @@ If the mouse cursor looks too big, set the cursor size environment variable like
 
 For convinience sake, it's probably a good idea to add this line to the `~/.bashrc` file
 
-# How to check IP address of the VM
+## How to check IP address of the VM
 - 1: Execute the `ip addr` command
 - 2: IP should be located in the `virbr0` entry, like so:
 
