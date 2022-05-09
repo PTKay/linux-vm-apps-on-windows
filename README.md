@@ -10,7 +10,7 @@ Player ▼
 ![](0.png)
 
 ## Step By Step
-- 1: Install PuTTY on Windows
+- 1: Install [PuTTY](https://www.putty.org/) on Windows
 - 2: [Download](./vmnetcfg.exe) `vmnetcfg.exe`, and place it in the VMware Player installation folder (usually it's `C:\Program Files (x86)\VMware\VMware Player`) 
 - 3: Run `vmmnetcfg.exe` **<ins>as administrator</ins>** and:
     - Select "VMNET8" and click on "NAT Settings":
@@ -29,7 +29,7 @@ Player ▼
 
     ![](3.png)
 
-- 4: Go to the VM and install openssh by running `sudo yum install openssh-server` (for CentOS/RedHat)
+- 4: Go to the VM and install openssh by running `sudo yum install openssh-server` (for CentOS/RedHat) in the terminal
 - 5: Enable X11 forwarding in `/etc/ssh/ssh_config` by removing the `#` character in the line saying "ForwardX11 yes", so that it looks like this:
 
     ![](4.png)
