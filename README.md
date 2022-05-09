@@ -75,7 +75,7 @@ If the mouse cursor looks too big, set the cursor size environment variable like
 For convinience sake, it's probably a good idea to add this line to the `~/.bashrc` file
 
 ## How to check IP address of the VM
-- 1: Execute the `ip addr` command
+- 1: Execute the `ip addr` command in the VM's terminal
 - 2: IP should be located in the `virbr0` entry, like so:
 
 ![](ip.png)
