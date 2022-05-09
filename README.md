@@ -1,5 +1,12 @@
 # How to run Linux VM apps as if they were on Windows
-This guide assumes your VM network connection is set to NAT
+This guide assumes your VM network connection is set to NAT. If you're not sure, check:
+
+```
+Player ▼
+└─── 🔧 Manage
+     └─── 🔧 Virtual Machine Settings
+          └── 🖥️🖥️ Network Adapter
+```
 
 - 1: Install PuTTY on Windows
 - 2: [Download](./vmnetcfg.exe) `vmnetcfg.exe`, and place it in the VMware Player installation folder (usually it's `C:\Program Files (x86)\VMware\VMware Player`) 
